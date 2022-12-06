@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PennyWise</title>
+    <link id="cssFile" rel="stylesheet" type="text/css" href="styles/theme.css">
+    <link id="cssFile" rel="stylesheet" type="text/css" href="styles/create.css">
+    <link rel="icon" href="img/favicon.png">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-div navbar-icon">
+        <img src="img/favicon.png" alt="company icon">
+      </div>
+      <div class="navbar-div navbar-header">
+        <h2> PennyWise </h2>
+      </div>
+    </div>
+
+    <form action="javascript:createUser()">
+      <div class="container">
+        <h1>Register</h1>
+        <hr>
+
+        <label for="fname"><b>First Name</b></label>
+        <input type="text" name="fname" id="fname" required>
+
+        <label for="lname"><b>Last Name</b></label>
+        <input type="text" name="lname" id="lname" required>
+
+        <label for="username"><b>Username</b></label>
+        <input type="text" name="username" id="username" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" name="psw" id="psw" required>
+
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" name="psw-repeat" id="psw-repeat" required>
+        <hr>
+
+        <div id="passReq">
+          <ul id="passReqList">
+            <p> Password Requirements </p>
+            <li>Uppercase Letter</li>
+            <li>Lowercase Letter</li>
+            <li>Number</li>
+            <li>Special Character</li>
+            <li>At least 8 characters</li>
+          </ul>
+        </div>
+
+        <div id="myCaptcha">
+          <div 
+            class="g-recaptcha" 
+            data-sitekey="6LcjxYYfAAAAAAWFw9eyqNpXTngQy7MO-1JzgLpb"
+          ></div>
+        </div>
+
+        <button type="submit" class="registerbtn">Register</button>
+      </div>
+    </form>
+      
+    <div class="container signin">
+      <p>Already have an account? <a href="/">Sign in</a>.</p>
+    </div>
+
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/utility.js"></script>
+    <script src="scripts/create.js"></script>
+
+  </body>
+
+</html>
+

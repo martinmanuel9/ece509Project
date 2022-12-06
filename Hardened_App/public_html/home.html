@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8"/>
+    <title>PennyWise</title>
+    <link id="cssFile" rel="stylesheet" type="text/css" href="styles/theme.css">
+    <link id="cssFile" rel="stylesheet" type="text/css" href="styles/home.css">
+    <link rel="icon" href="img/favicon.png">
+  </head>
+  
+  <body>
+
+    <!-- Top Navigation Bar --> 
+
+    <div class="navbar">
+      <div class="navbar-div navbar-icon">
+        <img src="img/favicon.png" alt="company icon">
+      </div>
+      <div class="navbar-div navbar-options">
+        <ul>
+          <li><a id="active" href="home.html">Overview</a></li>
+          <li><a href="transactions.html">Transactions</a></li>
+          <li><a href="bills.html">Bills</a></li>
+          <li><a href="budget.html">Budget</a></li>
+          <li><a href="investments.html">Investments</a></li>
+          <li><a href="property.html">Property</a></li>
+          <li class="logout-btn">
+            <a href="/">
+              <input type="submit" value="Log Out" onclick="logout()">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Page Content --> 
+
+    <div id="accountOverview">
+
+      <div id="section1">
+        <div class="subsectionDiv">
+          <h3 class="subtitle" id="acctDiv"> Transactions </h3>
+          <table class="itemTable" id="acctTable">
+          </table>
+        </div>
+
+        <div class="subsectionDiv">
+          <h3 class="subtitle" id="investmentDiv"> Investments </h3>
+          <table class="itemTable" id="investTable">
+          </table>
+        </div>
+
+      </div>
+
+      <div id="section2">
+        <div class="subsectionDiv">
+          <h3 class="subtitle" id="billsDiv"> Bills </h3>
+          <table class="itemTable" id="billsTable">
+          </table>
+        </div>
+
+        <div class="subsectionDiv">
+          <h3 class="subtitle" id="propertyDiv"> Property </h3>
+          <table class="itemTable" id="propTable">
+          </table>
+        </div>
+      </div>
+
+    </div>
+    
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/utility.js"></script>
+    <script src="scripts/home.js"></script>
+
+  </body>
+
+</html>
+

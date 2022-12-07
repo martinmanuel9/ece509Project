@@ -2,7 +2,7 @@
  * The main controller for the node.js server
  *
  * @file      server.js.
- * @author    Martin Lopez, Diego Moscoso
+ * @author    Martin Lopez Diego Moscoso
  * @since     10/21/2022
  */
 

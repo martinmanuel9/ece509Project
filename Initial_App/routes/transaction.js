@@ -2,7 +2,7 @@
  * Handles the transaction routes
  *
  * @file      transaction.js.
- * @author    Martin Lopez, Diego Moscoso
+ * @author    Martin Lopez Diego Moscoso
  * @since     09/21/2022
  */
 

@@ -2,7 +2,7 @@
  * JavaScript for budget.html
  *
  * @file      budget.js.
- * @author    Martin Lopez, Diego Moscoso
+ * @author    Martin Lopez Diego Moscoso
  * @since     09/21/2022
  */
 

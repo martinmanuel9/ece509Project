@@ -2,7 +2,7 @@
  * Handles the bill routes
  *
  * @file      bill.js.
- * @author    Martin Lopez, Diego Moscoso
+ * @author    Martin Lopez Diego Moscoso
  * @since     09/21/2022
  */
 

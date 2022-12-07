@@ -2,7 +2,7 @@
  * Handles the user routes
  *
  * @file      user.js.
- * @author    Jacob Summerville, Martin Lopez, Diego Moscoso
+ * @author    Martin Lopez Diego Moscoso
  * @since     01/21/2022
  */
 

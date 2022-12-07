@@ -2,7 +2,7 @@
  * JavaScript for the whole website
  *
  * @file      utility.js.
- * @author    Martin Lopez, Diego Moscoso
+ * @author    Martin Lopez Diego Moscoso
  * @since     10/21/2022
  */
 

@@ -2,7 +2,7 @@
  * Handles the budget routes
  *
  * @file      budget.js.
- * @author    Jacob Summerville, Martin Lopez, Diego Moscoso
+ * @author    Martin Lopez Diego Moscoso
  * @since     01/21/2022
  */
 

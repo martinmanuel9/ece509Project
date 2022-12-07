@@ -2,7 +2,7 @@
  * This file sets up the schema for MongoDB
  *
  * @file      db.js.
- * @author    Martin Lopez, Diego Moscoso
+ * @author    Martin Lopez Diego Moscoso
  * @since     09/21/2022
  */
 

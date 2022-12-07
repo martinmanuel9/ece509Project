@@ -2,7 +2,7 @@
  * JavaScript for home.html
  *
  * @file      home.js.
- * @author    Martin Lopez, Diego Moscoso
+ * @author    Martin Lopez Diego Moscoso
  * @since     10/21/2022
  */
 // Display data on load

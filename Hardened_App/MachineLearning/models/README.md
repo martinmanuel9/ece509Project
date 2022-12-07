@@ -12,8 +12,7 @@ The following parameters need to be passed in:
 2. method : type of clustering 'gmm' or 'a_shape'
     - gmm accounts for Fast COMPOSE
     - a_shape accounts for alpha shapes
-3. verbose : 0: doesnt print out , 1 prints to command line 
-4. num_cores: percent in which you wish to operate 0.8 = 80% of available cores 
-5. selected dataset : options available :
+3. num_cores: percent in which you wish to operate 0.8 = 80% of available cores 
+4. selected dataset : options available :
     ['UG_2C_2D','MG_2C_2D','1CDT', '2CDT']
 

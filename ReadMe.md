@@ -43,6 +43,7 @@ Security improvements:
 - Using a CAPTCHA
 - Disable accounts after an excess number of requests
 - Encrypt passwords
+- Example Machine Learning algorithms with COMPOSE, Fast COMPOSE, and SCARGC
 
 ## 4 Authors
 - Martin Lopez
